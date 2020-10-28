@@ -1,0 +1,17 @@
+{
+ "creation": "2015-02-19 13:37:33.925909",
+ "custom": 0,
+ "docstatus": 0,
+ "doctype": "Website Theme",
+ "idx": 26,
+ "js": "frappe.ready(() => {\n\t$('.navbar').removeClass('navbar-light bg-white').addClass('navbar-dark bg-dark')\n})",
+ "modified": "2020-07-24 14:30:35.373622",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "Standard",
+ "owner": "Administrator",
+ "theme": "Standard",
+ "theme_json": "{\"font_size\":16,\"navbar_style\":\"Light\",\"enable_shadows\":0,\"enable_gradients\":0,\"enable_rounded\":1}",
+ "theme_scss": "$enable-shadows: false;\n$enable-gradients: false;\n$enable-rounded: true;\n\n\nbody {\n\tfont-size: 16px;\n}\n@import \"frappe/public/scss/website\";\n\n\n@import \"erpnext/public/scss/website\";",
+ "theme_url": "/assets/css/standard_1725a0e9.css"
+}

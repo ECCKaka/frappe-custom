@@ -1,0 +1,40 @@
+{
+ "creation": "2020-08-17 12:30:02.239734",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cp_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "cp_name",
+   "fieldtype": "Small Text",
+   "label": "Name"
+  }
+ ],
+ "modified": "2020-08-17 13:14:10.375277",
+ "modified_by": "Administrator",
+ "module": "Custom",
+ "name": "Construction Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
